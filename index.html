@@ -7,12 +7,29 @@
         <title>Modal</title>
         <!-- CSS  -->
         <link rel="stylesheet" href="style.css">
+            <!-- FONTAWESOME -->
+        <script defer src="/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
     </head>
     <body>
-       
+        <!-- hero -->
+        <header class="hero">
+            <div class="banner">
+                <h1>modal project</h1>
+                <button class="btn modal-btn">open modal</button>
+            </div>
+        </header>
 
+        <!-- modal  -->
+        <div class="modal-overlay">
+            <div class="modal-container">
+                <h3>modal content</h3>
+                <button class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
 
-     <!-- JS  -->
+         <!-- JS  -->
         <script src="main.js"></script>
     </body>
 </html>
